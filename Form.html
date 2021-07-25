@@ -1,0 +1,82 @@
+<HTML>
+<head>
+<title>Form</title>
+</head>
+<fieldset>
+
+<h2>Application form</h2>
+<form method="GET" bgcolor="blue">
+<label>Full Name *:</label>
+<input type="text" name="Full Name" size="15" required><br> <br>
+<label>Email *:</label>
+<input type="email" id="email" name="email" required> <br> <br>
+
+<label>Gender : </label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label> <br> <br>
+
+<label for="nationality">Nationality :</label>
+  <input list="nationality" name="Nationality" id="Nationality">
+  <datalist id="nationality">
+      <option value="Indian">
+      <option value="NRI">
+      <option value="others">
+      </datalist><br> <br>
+      <label>Country :</label>
+  <select id="cont" name="country1" >
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+    <option value="Australia">Australia</option>
+    <option value="Mexico">Mexico</option>
+  </select>
+  <br> <br>
+<label>Skills :</label>
+<input type="checkbox" id="HTML & CSS" name="HTML & CSS">
+<lable for="HTML & CSS">HTML & CSS</lable>
+<input type="checkbox" id="API" name="API">
+<lable for="API">API</lable>
+<input type="checkbox" id="GUI" name="GUI">
+<lable for="GUI">GUI</lable>
+<input type="checkbox" id="JavaScript" name="JavaScript">
+<lable for="JavaScript">JavaScript</lable> <br> <br>
+
+<lable>Post applying for :</lable>
+<input type="radio" id="Trainee" name="post" value="Trainee">
+<lable for="Trainee">Trainee</lable>
+<input type="radio" id="Software Engineer" name="post" value="Software Engineer">
+<lable for="Software Engineer">Software Engineer</lable>
+<input type="radio" id="Team Leader" name="post" value="Team Leader">
+<lable for="Team Leader">Team Leader</lable>
+<input type="radio" id="Project manager" name="post" value="Project manager">
+<lable for="Project manager">Project manager</lable> <br> <br>
+
+<lable>Upload Resume </lable>
+<input type="file" id="myfile" name="myfile">
+<lable for="myfile"></lable> <br> <br>
+
+<lable>Address *:</lable>
+<textarea id="Address" name="Address" rows="5" cols="50" required >
+</textarea><br> <br>
+
+<label>Phone No *:</label>
+<input type="text" id="Phone No" name="phone No" value="+91" size="2"required>
+<input type="text" id="Phone No" name="phone No"  size="10"required>
+<br><br>
+
+<input type="checkbox" id="notify" name="notify">
+<lable for="notify">Notify the status via Email</lable>
+<br> <br>
+
+<input type="radio" id="terms" name="terms">
+<lable for="terms">I agree to all the terms and conditions</lable>
+<br> <br>
+
+<input type="submit" value="Submit"> <input type="reset" value="cancel">
+
+</fieldset>
+</form>
+</HTML>
